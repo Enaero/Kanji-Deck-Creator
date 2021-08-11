@@ -1,0 +1,9 @@
+*.json
+*.png
+*.svg
+*.jpeg
+__pycache__/
+*.pyc
+.idea/
+venv/
+**.egg-info/

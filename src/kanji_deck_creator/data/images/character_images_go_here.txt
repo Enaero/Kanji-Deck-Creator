@@ -1,0 +1,1 @@
+Put character images in this directory.
