@@ -17,7 +17,7 @@ Later on this might get uploaded to pypi, but for now its just a repo.
 ## How to use it?
 First you need to build your kanji data cache 
 (because WaniKani does not allow distributing their data for obvious reasons). You can do this with
-the script found at `bin/build_wani_kani_index.py`. Simply run it and it will ask you for a WaniKani 
+the script found at `bin/build_wanikani_index.py`. Simply run it and it will ask you for a WaniKani 
 API token. Then it should take care of the rest automatically.
 
 Afterwards, you can start building decks using `bin/create_deck.py`. You can run it with `--help` to see
@@ -29,6 +29,6 @@ bin/create_deck.py --source-file Chapter1.txt --deck-name "My favorite chapter" 
 ## Contributing
 Feel free to open pull requests. The development process is straight forward: 
 * Check out the code
-* Create a virtual environemnt using something like virtualenv
+* Create a virtual environment using something like virtualenv
 * To run your changes, you can do a development install using `pip install -e .` (in the virutal env)
 * Make sure to run the tests before opening a PR using `python -m pytest tst/` (in the virtual env)
